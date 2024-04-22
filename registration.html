@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Page</title>
+    <style>
+        * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 400px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #792099;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+    width: 75%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #d6d3db;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" id="form">
+        <h1>Register-Us 👇 </h1>
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username">
+          <div class="error"></div>
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+          <div class="error"></div>
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password">
+          <div class="error"></div>
+        </div>
+        <div class="input-group">
+          <label for="cpassword">Confirm Password</label>
+          <input type="password" id="cpassword" name="cpassword">
+          <div class="error"></div>
+        </div>
+        <div class="input-group">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname">
+          <div class="error"></div>
+        </div>
+        <div class="input-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone">
+          <div class="error"></div>
+        </div>
+        <div class="input-group">
+          <div class="error"></div>
+        </div>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </body>
+</html>
